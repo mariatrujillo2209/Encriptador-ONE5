@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang=" es">
+
+    </head>
+        
+        <meta charset = "TF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Encriptador</title>
+        <link rel = "stylesheet"href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="pba.css">
+        
+    </head>
+    <body>
+        <header>
+            <div >
+                <h1 class="logo"><img src="imagens/logoAlura.png" alt="LogoAlura"> </h1>
+                <h3 class="titulo">Encriptador</h3>
+            </div>
+        </header>
+    
+        <main>
+            <section>
+                <textarea class="text-area" cols="50" rows="4"  placeholder="Ingrese su texto aqui"></textarea>
+        
+                    <div>
+                        <h2 class="información" cols="20" rows="10">Use solo letras minusculas sin acentos</h2>
+                    </div>
+                    <div class="boton">
+                        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                    </div>
+            </section>
+            
+            <section>
+                <div class=" textAreaEncriptado">
+                    <textarea class="mensaje"></textarea>
+                    <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+                
+            </section>
+        </main>
+        <script src="script.js"></script>
+        <footer>
+            <section class="pie de pagina">
+                <p class=" copyrigth">&copy Copyright Curso Alura Carmen- 2023</p>
+
+                <div class="redesSociales">
+                    <ul>
+                        <li><a title=" GitHub" href="https://github.com/mariatrujillo2209/"><img src="imagens/github.png" alt="github"></a> </li>
+                    </ul>
+
+                </div>
+
+
+            </section>
+            
+    
+        </footer>
+    </body>
+</html>
